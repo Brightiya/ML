@@ -4,9 +4,6 @@ from sklearn.datasets import load_iris
 from sklearn.ensemble import RandomForestClassifier
 
 
-st.title("Hello Streamlit")
-st.write("This is your first Streamlit app.🎉")
-
 # load data
 iris = load_iris()
 clf = RandomForestClassifier()
